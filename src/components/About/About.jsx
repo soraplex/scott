@@ -77,7 +77,7 @@ const About = () => {
             </FadeAnimation>
           </div>
           <div className="about-selfie">
-            <img alt="it me scott" src={"/public/me.png"} />
+            <img  src="me.png" alt="it me scott" />
           </div>
         </div>
       </FadeAnimation>
