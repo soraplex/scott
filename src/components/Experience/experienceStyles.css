@@ -84,3 +84,10 @@
   content: "➥    ";
   color: var(--cornflower-blue);
 }
+
+@media (max-width: 600px) {
+  .experience-content {
+    grid-template-columns: 1fr; /* Stack cards vertically */
+    padding-top: 15px; /* Adjust padding for smaller screens */
+  }
+}

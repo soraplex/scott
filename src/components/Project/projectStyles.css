@@ -13,3 +13,10 @@
   margin: 0 auto;
   padding-top: 30px;
 }
+
+@media (max-width: 600px) {
+  .project-content {
+    grid-template-columns: 1fr; /* Stack cards vertically */
+    padding-top: 15px; /* Adjust padding for smaller screens */
+  }
+}

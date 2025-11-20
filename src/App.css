@@ -54,7 +54,7 @@ body {
   border: 1px solid var(--light-slate);
   border-radius: 8px;
   padding: 16px;
-  max-width: 425px;
+  max-width: 625px;
   background-color: var(--ash-black);
   transition: transform 0.3s ease, background-color 0.3s ease, box-shadow 0.3s ease;
 }
@@ -129,4 +129,26 @@ body {
 
 .card:hover .card-tag {
   background-color: var(--ash-black);
+}
+
+@media (max-width: 600px) {
+  .project-content {
+    padding-top: 15px; /* Adjust padding for smaller screens */
+  }
+  .card {
+    padding: 12px; /* Reduce padding for smaller screens */
+    font-size: 0.875rem; /* Smaller font size */
+    max-width: 345px;
+  }
+  .card-header {
+    font-size: 1.25rem; /* Smaller header font size */
+  }
+  .card-body {
+    font-size: 0.75rem; /* Smaller body font size */
+    max-width: 200px;
+  }
+  .card-tag {
+    font-size: 0.625rem; /* Smaller tag font size */
+    padding: 2px 4px; /* Adjust padding for tags */
+  }
 }
