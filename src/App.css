@@ -132,6 +132,19 @@ body {
 }
 
 @media (max-width: 600px) {
+  .section-header {
+    padding-bottom: 20px; /* Reduce bottom padding (from 42px) for tighter spacing */
+    font-size: 28px; /* Smaller font size (from 46px) to fit better on narrow screens */
+    font-weight: bold; /* Keep bold for emphasis */
+  }
+  .section-header::after {
+    width: 150px; /* Reduce line width (from 300px) to make it less intrusive */
+    margin-top: 20px; /* Adjust top margin (from 35px) for better alignment with smaller font */
+    margin-left: 10px; /* Reduce left margin (from 20px) for compactness */
+    height: 1px; /* Keep height for a subtle line */
+    background-color: var(--cornflower-blue);
+  }
+
   .project-content {
     padding-top: 15px; /* Adjust padding for smaller screens */
   }
