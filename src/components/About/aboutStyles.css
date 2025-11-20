@@ -54,12 +54,57 @@
   border: none;
 }
 
+.about-selfie:hover {
+  transform: translateY(-7px);
+}
+
 @media only screen and (max-width: 788px) {
   .about-selfie img {
     max-width: 200px;
   }
 }
 
-.about-selfie:hover {
-  transform: translateY(-7px);
+@media (max-width: 600px) {
+  .about {
+    min-height: 60vh; /* Reduce height (from 80vh) for a more compact section */
+    padding-top: 200px; /* Significantly reduce top padding (from 400px) to bring content closer to the top */
+    max-width: 100%; /* Allow full width on small screens */
+    width: 100%;
+  }
+  .about-content {
+    flex-direction: column; /* Stack blurb and image vertically for better mobile flow */
+    align-items: center; /* Center items for balance */
+  }
+  .about-blurb {
+    max-width: 100%; /* Allow full width for text */
+    font-size: 16px; /* Smaller font size (from 21px) for compactness */
+    text-align: left; /* Change to left-align for easier reading on mobile */
+    
+  }
+  .about-blurb ul {
+    grid-template-columns: repeat(2, 1fr); /* Display in 2 columns for 2 rows vertically */
+    gap: 10px; /* Increase gap slightly for readability */
+  }
+  .about-blurb li {
+    font-size: 14px; /* Smaller list item font (from 18px) */
+    padding-left: 20px; /* Reduce padding for tighter fit */
+  }
+  .about-selfie {
+    order: -1; /* Move image to the top of the flex container (under the section header) */
+    padding-left: 0; /* Remove left padding since it's now stacked */
+    text-align: center; /* Center the image */
+    margin-bottom: 20px; /* Add space below image */
+  }
+  .about-selfie img {
+    max-width: 150px; /* Further reduce image size (from 200px in the 788px query) for smaller screens */
+    margin-left: 0; /* Remove left margin for centering */
+  }
+  .about-selfie:hover {
+    transform: none; /* Disable hover transform on mobile to avoid layout shifts */
+  }
 }
+
+
+
+
+
