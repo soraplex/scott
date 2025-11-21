@@ -3,6 +3,7 @@
   min-height: 80vh; /* Reduced height to allow footer visibility */
   margin: 0 auto; /* Center horizontally */
   max-width: 1000px; /* Limit the width */
+  padding-top: 100px;
 }
 
 .project-content {
@@ -15,8 +16,10 @@
 }
 
 @media (max-width: 600px) {
+
+
   .project-content {
     grid-template-columns: 1fr; /* Stack cards vertically */
-    padding-top: 15px; /* Adjust padding for smaller screens */
+    padding-top: 10px; /* Adjust padding for smaller screens */
   }
 }
