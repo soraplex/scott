@@ -6,7 +6,7 @@ Welcome to my personal portfolio! This site highlights my work, skills, and crea
 ## 🚀 Live Site
 
 
-[Visit My Portfolio]()  
+[Visit My Portfolio](https://scottydotcom.netlify.app/)  
 
 
 ## 🛠️ Tech Stack
