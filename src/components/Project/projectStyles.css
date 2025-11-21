@@ -16,6 +16,9 @@
 }
 
 @media (max-width: 600px) {
+  project {
+    padding-top: 75px; /* Reduce top padding for smaller screens */
+  }
   .project-content {
     grid-template-columns: 1fr; /* Stack cards vertically */
     padding-top: 15px; /* Adjust padding for smaller screens */
