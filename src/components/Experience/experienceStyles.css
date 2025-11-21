@@ -86,6 +86,9 @@
 }
 
 @media (max-width: 600px) {
+  .experience:{
+    padding-bottom: 150px; /* Reduce bottom padding for smaller screens */
+  }
   .experience-content {
     grid-template-columns: 1fr; /* Stack cards vertically */
     padding-top: 15px; /* Adjust padding for smaller screens */
