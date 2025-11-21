@@ -86,7 +86,7 @@
 }
 
 @media (max-width: 600px) {
-  .experience:{
+  .experience {
     padding-bottom: 150px; /* Reduce bottom padding for smaller screens */
   }
   .experience-content {
