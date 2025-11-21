@@ -66,8 +66,7 @@
 
 @media (max-width: 600px) {
   .about {
-    min-height: 60vh; /* Reduce height (from 80vh) for a more compact section */
-    padding-top: 200px; /* Significantly reduce top padding (from 400px) to bring content closer to the top */
+    padding-top: 175px; /* Significantly reduce top padding (from 400px) to bring content closer to the top */
     max-width: 100%; /* Allow full width on small screens */
     width: 100%;
   }
