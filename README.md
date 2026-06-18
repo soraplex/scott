@@ -3,12 +3,6 @@
 Welcome to my personal portfolio! This site highlights my work, skills, and creative approach to web development. Built with [Vite](https://vitejs.dev/) for lightning-fast performance and [React](https://reactjs.org/) for dynamic, interactive UIs, it blends technical precision with aesthetic intent.
 
 
-## 🚀 Live Site
-
-
-[Visit My Portfolio](https://scottydotcom.netlify.app/)  
-
-
 ## 🛠️ Tech Stack
 
 - **Framework**: [React](https://reactjs.org/) — JavaScript UI library for building interactive components
